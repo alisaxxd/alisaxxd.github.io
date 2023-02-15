@@ -4,13 +4,10 @@
   }
   .header-img {
     width: 100%;
-    opacity: 0.1;
   }
-  header {
-    display: flex-end;
-    align-items:flex-end;
-    justify-content: flex-end;
-    height: 500px;
+ header {
+    background-position: center;
+    height: 100vh;
     background-image: url('images/header.jpg');
     background-size: cover;
   }
@@ -66,5 +63,42 @@
   }
   nav li:hover {
     background-color: rgba(31, 25, 41);
-  }
+  }  
+h3 {
+text-align: center;
+font-family: sans-serif;
+font-size: 25px;
+color:rgb(105, 87, 101);
+font-weight:lighter;
+}
+
+.personality-type{
+  color: white;
+  text-align: left;
+  padding-left: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+
+.about-them-text p{
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  line-height: 1.4;
+  margin-top: 40px;
+  text-align: left;
+}
+
+.they-once-said-quote{
+  color: rgb(105, 87, 101);
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+.they-once-said-quote-title{
+  font-size: 25px;
+}
+
+
+
 
