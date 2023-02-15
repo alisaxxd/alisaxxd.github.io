@@ -63,7 +63,8 @@
   }
   nav li:hover {
     background-color: rgba(31, 25, 41);
-  }  
+  }
+    
 h3 {
 text-align: center;
 font-family: sans-serif;
@@ -72,12 +73,23 @@ color:rgb(105, 87, 101);
 font-weight:lighter;
 }
 
+.page-image-left{
+  padding-left: 50px;
+}
+
+.main-info-text-right{
+  border: right;
+
+}
+
 .personality-type{
   color: white;
   text-align: left;
-  padding-left: 50px;
   font-family: 'Times New Roman', Times, serif;
   font-size: 30px;
+  padding-left: 100px;
+  margin-top: -30px;
+
 }
 
 .about-them-text p{
@@ -86,19 +98,47 @@ font-weight:lighter;
   font-family: sans-serif;
   line-height: 1.4;
   margin-top: 40px;
+  margin-left: 100px;
   text-align: left;
 }
 
 .they-once-said-quote{
   color: rgb(105, 87, 101);
   font-size: 20px;
-  margin-left: 40px;
+  margin-left: 60px;
 }
 
 .they-once-said-quote-title{
-  font-size: 25px;
+  font-size: 30px;
 }
 
+.wednesday{
+  width: 400px;
+  height: auto;
+  padding: 50px;
+}
 
+.tyler{
+  width: 400px;
+  height: auto;
+  padding: 50px;
+}
+
+.xavier{
+  width: 400px;
+  height: auto;
+  padding: 50px;
+}
+.enid{
+  width: 400px;
+  height: auto;
+  padding: 50px;
+}
+
+.homepage-wednesday-image{
+  width: 100px;
+  height: auto;
+  padding-right: 200px;
+}
 
 
