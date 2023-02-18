@@ -79,7 +79,9 @@ font-weight:lighter;
 
 .main-info-text-right{
   border: right;
-
+  border-right: 1px solid white;
+  vertical-align: top;
+  text-align: left;
 }
 
 .personality-type{
@@ -92,7 +94,7 @@ font-weight:lighter;
 
 }
 
-.about-them-text p{
+.about-them-text {
   color: white;
   font-size: 20px;
   font-family: sans-serif;
