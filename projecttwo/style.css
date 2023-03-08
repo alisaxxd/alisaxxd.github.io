@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
 
 body{
     background-color: rgb(233, 231, 233);
@@ -7,7 +7,7 @@ body{
 
 nav {
     list-style-type: none;
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Antic', sans-serif;
     font-size: medium;
 }
 
@@ -16,7 +16,7 @@ nav li {
 }
 
 nav a {
-    color: rgb(31, 25, 41);
+    color: rgb(103, 53, 0);
     text-decoration: none;
     float: right;
     margin-top: 20px;
@@ -28,32 +28,34 @@ nav a {
   h1 {
     text-align: center;
     font-size: 300px;
-    font-family: 'Rampart One', cursive;
+    font-family:'Black Han Sans', sans-serif;
     margin-top: 10px;
+    color:rgb(149, 1, 0);
   }
 
   h2 {
-    font-family: 'Rampart One', cursive;
+    font-family: 'Black Han Sans', sans-serif;
+    color: rgb(149, 1, 0);
     font-size:100px;
-    margin-left: 20px; 
+    margin-left: 30px; 
     margin-top: -100px;
   }
 
   p {
     text-align: center;
     margin-top: 100px;
-    font-family: 'Comic Neue', cursive; 
+    font-family: 'Antic', sans-serif;
     color: black;
     font-size: 25px;
   }
 
 hr.line{
-  border-top: 0.5px solid rgb(189, 205, 18);
+  border-top: 0.5px solid rgb(103, 53, 0);
   margin-top: -10px;
 }
 
 section:nth-child(1) {
-  background-color: aliceblue;
+  background-color: rgb(223, 203, 203);
 }
 
 section {
@@ -61,11 +63,20 @@ section {
   width: 100vw;
   display: flex;
   justify-content: center;
-  align-items: right;
+  align-items: flex;
   flex-direction: column;
   position: sticky;
   top: -1px;
 }
 section:nth-child(2) {
-  background-color: antiquewhite;
+  background-color: rgb(248, 228, 208);
 }
+
+section:nth-child(3) {
+  background-color: rgb(252, 229, 199);
+}
+
+section:nth-child(4) {
+  background-color: rgb(255, 228, 190);
+}
+
