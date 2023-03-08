@@ -80,3 +80,16 @@ section:nth-child(4) {
   background-color: rgb(255, 230, 195);
 }
 
+html {
+  height: 100%;
+  width: 100%;
+}
+.splashpage {
+    background:rgb(237, 27, 36);
+    height:100dvh;
+    width:100%;
+}
+.record {
+    
+    transition: 2s 2s; /* firest value is delay, second is animation */
+}
