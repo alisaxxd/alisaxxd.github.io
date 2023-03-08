@@ -11,15 +11,29 @@
 
 <body class="splashpage">
     <a href="homepage.html">
-        <div class="recordplayer">
-            <div class="loader">
-                <span class="loader__element"></span>
-                <span class="loader__element"></span>
-                <span class="loader__element"></span>
-              </div>
-            <br><img class="record" src="">
-        </div>
+        <div class="player">
+            <div class="record">
+              <div class="label"></div>
+            </div>
+            <div class="tone-arm">
+              <div class="control"></div>
+            </div>
+            <button class="btn"></button>
+            <div class="slider-container">
+              <input
+                type="range"
+                class="slider"
+                min="0"
+                max="1"
+                step="0.1"
+                value="0.7"
+              />
+            </div>
+          </div>
+          <audio loop class="my-song" src="Home.mp3" preload="auto"></audio>   
     </a>
+
+    <p>loading...</p>
 
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"
         integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
