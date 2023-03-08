@@ -30,12 +30,12 @@ nav a {
     font-size: 300px;
     font-family:'Black Han Sans', sans-serif;
     margin-top: 10px;
-    color:rgb(149, 1, 0);
+    color:rgb(237, 27, 36);
   }
 
   h2 {
     font-family: 'Black Han Sans', sans-serif;
-    color: rgb(149, 1, 0);
+    color: rgb(237, 27, 36);
     font-size:100px;
     margin-left: 30px; 
     margin-top: -100px;
@@ -55,7 +55,7 @@ hr.line{
 }
 
 section:nth-child(1) {
-  background-color: rgb(223, 203, 203);
+  background-color: rgb(252, 243, 236);
 }
 
 section {
@@ -69,14 +69,14 @@ section {
   top: -1px;
 }
 section:nth-child(2) {
-  background-color: rgb(248, 228, 208);
+  background-color: rgb(255, 235, 215);
 }
 
 section:nth-child(3) {
-  background-color: rgb(252, 229, 199);
+  background-color: rgb(255, 233, 204);
 }
 
 section:nth-child(4) {
-  background-color: rgb(255, 228, 190);
+  background-color: rgb(255, 230, 195);
 }
 
