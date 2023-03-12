@@ -19,7 +19,7 @@ nav a {
     color: rgb(0, 0, 0);
     text-decoration: none;
     float: right;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-right: 90px;
     font-weight: 500px;
     font-size: 30px;
@@ -29,7 +29,7 @@ nav a {
     text-align: center;
     font-size: 300px;
     font-family:'Black Han Sans', sans-serif;
-    margin-top: 10px;
+    margin-top: -10px;
     color:rgb(153, 25, 32);
   }
 
@@ -38,15 +38,17 @@ nav a {
     color: rgb(153, 25, 32);
     font-size:100px;
     margin-left: 30px; 
-    margin-top: -100px;
+    margin-top: -50px;
+    margin-left: 50px;
+    margin-bottom: 30px;
   }
 
   p {
     text-align: center;
-    margin-top: 100px;
     font-family: 'Antic', sans-serif;
     color: black;
-    font-size: 25px;
+    font-size: 30px;
+    margin: 10px;
   }
 
 hr.line{
@@ -54,12 +56,9 @@ hr.line{
   margin-top: -10px;
 }
 
-section:nth-child(1) {
+.homepage-sticky {
   background-color: rgb(252, 243, 236);
-}
-
-section {
-  height: 130vh;
+  height: 115vh;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -68,26 +67,64 @@ section {
   position: sticky;
   top: -1px;
 }
-section:nth-child(2) {
+
+section {
+ display: block;
+}
+
+.about-sticky {
   background-color: rgb(255, 235, 215);
+  height: 115vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex;
+  flex-direction: column;
+  position: sticky;
+  top: -1px;
 }
 
-section:nth-child(3) {
+.onlinecatalog-sticky {
   background-color: rgb(255, 233, 204);
+  height: 115vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex;
+  flex-direction: column;
+  position: sticky;
+  top: -1px;
 }
 
-section:nth-child(4) {
+.contact-sticky {
   background-color: rgb(255, 230, 195);
+  height: 115vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex;
+  flex-direction: column;
+  position: sticky;
+  top: -1px;
 }
 
 html {
   height: 100%;
   width: 100%;
 }
+
 .splashpage {
     background:rgb(153, 25, 32);
     height:100dvh;
     width:100%;
+}
+
+
+.arrow{
+  color: rgb(255, 255, 255);
+  margin-top: -180px;
+  margin-left: 4px;
+  text-align: center;
 }
 .record {
     
@@ -98,6 +135,24 @@ html {
   text-align: center;
   font-family: 'Antic', sans-serif;
   color: rgb(252, 243, 236);
-} 
+}
+
+.photo{
+  display: block;
+  margin-left: 50px;
+}
+
+.main-text-left p{
+  text-align: left;
+  margin-left: 130px;
+  font-size: 30px;
+  margin-top: 25px;
+}
+
+.map-right{
+  margin-left: 950px;
+  margin-top: -430px;
+}
+
 
 
