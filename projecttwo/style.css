@@ -43,12 +43,12 @@ nav a {
     margin-bottom: 30px;
   }
 
-  p {
+  .body-text p {
     text-align: center;
     font-family: 'Antic', sans-serif;
     color: black;
     font-size: 30px;
-    margin: 10px;
+    margin: 100px;
   }
 
 hr.line{
@@ -157,6 +157,7 @@ html {
   margin-left: 130px;
   font-size: 30px;
   margin-top: 25px;
+  font-family: 'Antic', sans-serif;
 }
 
 .map-right{
@@ -167,11 +168,15 @@ html {
 .recordplayer{
   width: 100%;
   text-align: center;
-  margin-top: 240px;
+  margin-top: 120px;
 }
 
 .record{
   width: 15%;
   margin: auto;
+}
+.splashpage-text p{
+  font-size: 80px;
+  font-family: 'Antic', sans-serif;
 }
 
