@@ -161,6 +161,7 @@ html {
 }
 
 .map-right{
+  display: flex;
   margin-left: 950px;
   margin-top: -430px;
 }
