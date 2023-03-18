@@ -170,6 +170,7 @@ html {
   width: 100%;
   text-align: center;
   margin-top: 120px;
+  margin-left: 190px;
 }
 
 .record{
@@ -181,3 +182,53 @@ html {
   font-family: 'Antic', sans-serif;
 }
 
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+button:focus{
+  outline: none;
+}
+
+.mainDiv{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  max-width: 80%;
+  height: 200px;
+}
+
+.mainDiv > button{
+  background:rgb(153, 25, 32);
+  padding: 14px 25px;
+  border: none;
+  font-size: 23px;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Antic', sans-serif;
+}
+
+.mainDiv > button:hover{
+  background: rgb(233, 231, 233);
+}
+
+.mainDiv > .progressDiv{
+  width: 100%;
+  height: 30px;
+  background:rgb(233, 231, 233);
+}
+
+.mainDiv > .progressDiv > .progress{
+  width: 0%;
+  height: 30px;
+  background: rgb(153, 25, 32);
+}
+
+.mainDiv > h2{
+  font-family: sans-serif;
+  color:rgb(153, 25, 32);
+}
