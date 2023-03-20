@@ -9,6 +9,7 @@ nav {
     list-style-type: none;
     font-family: 'Antic', sans-serif;
     font-size: medium;
+    color: rgb(153, 25, 32);
 }
 
 nav li {
@@ -16,7 +17,7 @@ nav li {
 }
 
 nav a {
-    color: rgb(0, 0, 0);
+    color: rgb(153, 25, 32);
     text-decoration: none;
     float: right;
     margin-top: 0px;
@@ -29,7 +30,7 @@ nav a {
     text-align: center;
     font-size: 300px;
     font-family:'Black Han Sans', sans-serif;
-    margin-top: -10px;
+    margin-top: -20px;
     color:rgb(153, 25, 32);
   }
 
@@ -57,7 +58,7 @@ hr.line{
 }
 
 .homepage-sticky {
-  background-color: rgb(252, 243, 236);
+  background-image: url(images/aboutbook.png);
   height: 115vh;
   width: 100vw;
   display: flex;
@@ -140,8 +141,9 @@ html {
 .photo{
   display: flex;
   flex-wrap:wrap;
-  width:80%;
+  width:70%;
   margin:auto;
+  margin-top: 50px;
 }
 
 .photo div { 
